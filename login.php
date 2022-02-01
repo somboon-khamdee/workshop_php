@@ -28,7 +28,7 @@
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="../../index2.html" class="h1">ระบบจัดการสมาชิก</a>
+                <h1><b>ยินดีต้อนรับ</b></h1>
             </div>
             <div class="card-body">
                 <p class="login-box-msg">กรุณาระบุชื่อผู้ใช้งานและรหัสผ่าน</p>
@@ -55,15 +55,14 @@
                             <div class="icheck-primary">
                                 <input type="checkbox" id="remember">
                                 <label for="remember">
-                                    จดจำ
+                                    จดจำชื่อผู้ใช้และรหัสผ่าน
                                 </label>
                             </div>
                         </div>
-                        <!-- /.col -->
-                        <div class="col-4">
-                            <button type="submit" class="btn btn-warning btn-block">เข้าสู่ระบบ</button>
-                        </div>
-                        <!-- /.col -->
+                    </div>
+                    <div class="social-auth-links text-center">
+                        <button type="" class="btn btn-block btn-outline-warning">
+                            <i class="fas fa-sign-in-alt"></i> เข้าสู่ระบบ</button>
                     </div>
                 </form>
 

@@ -27,14 +27,13 @@
     <div class="register-box">
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="index2.html" class="h1">แบบฟอร์มสมัครสมาชิก</a>
+                <h1><b>แบบฟอร์มสมัครสมาชิก</b></h1>
             </div>
             <div class="card-body">
-                <p class="login-box-msg">กรุณากรอกข้อมูล</p>
-
+                <h4 class="login-box-msg">กรุณากรอกข้อมูลของท่าน</h4>
                 <form action="insert.php" method="post">
                     <div class="input-group mb-3">
-                        <input type="text" name="txt_fullname" class="form-control" placeholder="ชื่อ-นามสกุล">
+                        <input type="text" name="text_fullname" class="form-control" placeholder="Fullname">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-user"></span>
@@ -42,7 +41,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="username" name="txt_username" class="form-control" placeholder="ชื่อผู้ใช้">
+                        <input type="text" name="text_username" class="form-control" placeholder="Username">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-at"></span>
@@ -50,7 +49,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" name="txt_password" class="form-control" placeholder="รหัสผ่าน">
+                        <input type="password" name="text_password" class="form-control" placeholder="Password">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
@@ -58,10 +57,10 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" name="txt_repassword" class="form-control" placeholder="ยืนยันรหัสผ่าน">
+                        <input type="password" name="text_repassword" class="form-control" placeholder="Retpye Password">
                         <div class="input-group-append">
                             <div class="input-group-text">
-                                <span class="fas fa-lock"></span>
+                                <span class="fas fa-check-double"></span>
                             </div>
                         </div>
                     </div>
@@ -70,14 +69,14 @@
                             <div class="icheck-primary">
                                 <input type="checkbox" id="agreeTerms" name="terms" value="agree">
                                 <label for="agreeTerms">
-                                    ยอมรับทุก <a href="#">เงื่อนไข</a>
+                                    ยอมรับ <a href="#">เงื่อนไข</a>
                                 </label>
                             </div>
                         </div>
                     </div>
                     <div class="social-auth-links text-center">
-                        <a href="insert.php" class="btn btn-block btn-outline-info">
-                            <i class="fas fa-user-plus"></i> สมัครสมาชิก</a>
+                        <button type="" class="btn btn-block btn-outline-info">
+                            <i class="fas fa-user-plus"></i> สมัครสมาชิก</button>
                     </div>
                 </form>
 
@@ -89,11 +88,11 @@
     <!-- /.register-box -->
 
     <!-- jQuery -->
-    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="../../dist/js/adminlte.min.js"></script>
+    <script src="dist/js/adminlte.min.js"></script>
 </body>
 
 </html>

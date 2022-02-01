@@ -1,11 +1,11 @@
-<?php
-$fullname = $_POST['txt_fullname'];
-$username = $_POST['txt_username'];
-$pasword = $_POST['txt_password'];
-$repassword = $_POST['txt_repassword'];
-
+<?php 
+$fullname = $_POST['text_fullname'];
+$username = $_POST['text_username'];
+$password = $_POST['text_password'];
+$repassword = $_POST['text_repassword'];
 echo $fullname."<br>";
 echo $username."<br>";
-echo $pasword."<br>";
+echo $password."<br>";
 echo $repassword."<br>";
+
 ?>
