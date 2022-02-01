@@ -30,7 +30,7 @@
                 <h1><b>แบบฟอร์มสมัครสมาชิก</b></h1>
             </div>
             <div class="card-body">
-                <h4 class="login-box-msg">กรุณากรอกข้อมูลของท่าน</h4>
+                <h6 class="login-box-msg">กรุณากรอกข้อมูลของท่าน</h6>
                 <form action="insert.php" method="post">
                     <div class="input-group mb-3">
                         <input type="text" name="text_fullname" class="form-control" placeholder="Fullname">
@@ -76,7 +76,7 @@
                     </div>
                     <div class="social-auth-links text-center">
                         <button type="" class="btn btn-block btn-outline-info">
-                            <i class="fas fa-user-plus"></i> สมัครสมาชิก</button>
+                            <i class="fas fa-user-plus"></i> ยืนยันสมัครสมาชิก</button>
                     </div>
                 </form>
 

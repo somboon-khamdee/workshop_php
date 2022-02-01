@@ -13,8 +13,8 @@ $conn -> set_charset("utf8");
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
-}else{
-  echo "Connnect Successfuly!";
 }
-
-$conn -> close(); //close mysql
+//else{
+// echo "Connnect Successfuly!";
+//}
+?>
