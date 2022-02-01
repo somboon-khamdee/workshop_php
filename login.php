@@ -28,7 +28,7 @@
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <h1><b>ยินดีต้อนรับ</b></h1>
+                <h1><b>ระบบจัดการสมาชิก</b></h1>
             </div>
             <div class="card-body">
                 <p class="login-box-msg">กรุณาระบุชื่อผู้ใช้งานและรหัสผ่าน</p>
@@ -80,7 +80,7 @@
                 <!-- /.social-auth-links -->
 
                 <p class="mb-1">
-                    <a href="forgot-password.html">ลืมรหัสผ่าน</a>
+                    <a href="#">ลืมรหัสผ่าน</a>
                 </p>
             </div>
             <!-- /.card-body -->
