@@ -33,9 +33,9 @@
             <div class="card-body">
                 <p class="login-box-msg">กรุณาระบุชื่อผู้ใช้งานและรหัสผ่าน</p>
 
-                <form action="index.php" method="post">
+                <form action="checklogin.php" method="post">
                     <div class="input-group mb-3">
-                        <input type="username" class="form-control" placeholder="Username">
+                        <input type="username" class="form-control" placeholder="Username" name="text_username">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-user"></span>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" class="form-control" placeholder="Password" name="text_password">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
