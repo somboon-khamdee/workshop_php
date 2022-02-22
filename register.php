@@ -76,7 +76,7 @@
                     </div>
                     <div class="social-auth-links text-center">
                         <button type="" class="btn btn-block btn-outline-info">
-                            <i class="fas fa-user-plus"></i> ยืนยันสมัครสมาชิก</button>
+                            <i class="fas fa-user-plus"></i> ยืนยันการสมัครสมาชิก</button>
                     </div>
                 </form>
 

@@ -40,7 +40,7 @@ if (mysqli_query($conn, $sql)) {
     </script>";
     /*echo"Add Data Record Complete.";*/
 } else {
-    echo "Error" . $sql . "<br>" . $conn->error;
+    echo "Error!!!" . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();

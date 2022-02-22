@@ -50,8 +50,8 @@
                                  <th>Username</th>
                                  <th>Password</th>
                                  <th>สถานะ</th>
-                                 <th>แก้ไข</th>
-                                 <th>ลบ</th>
+                                 <th>Edit</th>
+                                 <th>Delete</th>
                              </tr>
                          </thead>
                          <tbody>
