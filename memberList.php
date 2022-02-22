@@ -8,6 +8,8 @@
     include("layout/sidebar.php");
 ?>
 <?php
+    ob_start();
+    session_start();
     include("connection/config_db.php");
     $sql = "SELECT * FROM tbl_member";
     $objQuery = mysqli_query($conn, $sql);
@@ -69,8 +71,8 @@
                                 <td><?php echo $m_username; ?></td>
                                 <td><?php echo $m_password; ?></td>
                                 <td><?php echo $m_level; ?></td>
-                                <td>แก้ไข</td>
-                                <td>ลบ</td>
+                                <td><a href="delete.php?m_id=<?php echo $m_id; ?>" class="btn btn-warning">แก้ไข</a></td>
+                                <td><a href="delete.php?m_id=<?php echo $m_id; ?>" class="btn btn-danger">ลบ</a></td>
                              </tr>
                             <?php
                             }
