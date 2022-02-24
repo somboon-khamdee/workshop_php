@@ -71,7 +71,7 @@
                                 <td><?php echo $m_username; ?></td>
                                 <td><?php echo $m_password; ?></td>
                                 <td><?php echo $m_level; ?></td>
-                                <td><a href="delete.php?m_id=<?php echo $m_id; ?>" class="btn btn-warning">แก้ไข</a></td>
+                                <td><a href="edit.php?m_id=<?php echo $m_id; ?>" class="btn btn-warning">แก้ไข</a></td>
                                 <td><a href="delete.php?m_id=<?php echo $m_id; ?>" class="btn btn-danger">ลบ</a></td>
                              </tr>
                             <?php

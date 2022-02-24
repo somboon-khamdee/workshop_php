@@ -12,25 +12,36 @@
 
 <?php
 include("connection/config_db.php");
-$row_id = $_GET['m_id'];
-echo $row_id;
-$sql = "DELETE FROM tbl_member WHERE id=$row_id";
-$objQuery = mysqli_query($conn, $sql);
 
+$ud_id = $_POST['text_id'];
+$ud_fullname = $_POST['text_fullname'];
+//$ud_username = $_POST['text_username'];
+$ud_password = $_POST['text_password'];
+$ud_repassword = $_POST['text_repassword'];
+
+echo "<br>";
+/*echo $id . "<br>";
+echo $fullname . "<br>";
+echo $username . "<br>";
+echo $password . "<br>";
+echo $repassword . "<br>";*/
+
+$sql = "UPDATE tbl_member SET fullname='$ud_fullname', password='$ud_password' WHERE id='$ud_id'";
+$objQuery = mysqli_query($conn, $sql);
 if ($objQuery) {
-    echo "
-    <script>
+    echo
+    "<script>
             Swal.fire({
                 icon: 'success',
-                title: '<h3>ระบบทำการบันทึกข้อมูลสำเร็จ</h3>',
+                title: '<h3>ระบบทำการลบข้อมูลสำเร็จ</h3>',
                 type: 'success',
                 showConfirmButton: false,
                 timer: 2000
             }).then(function() {
                 window.location = 'memberList.php';
             });
-    </script>
-    ";
+    </script>";
+    /*echo"Add Data Record Complete.";*/
 } else {
     echo "
     <script>
